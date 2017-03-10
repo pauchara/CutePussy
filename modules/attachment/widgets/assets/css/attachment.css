@@ -1,0 +1,54 @@
+#attachment-file-upload {
+    display: none;
+}
+
+.file-item {
+    width: 23%;
+    height: 150px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+}
+
+.select-file {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-top: -8px;
+    margin-left: 8px;
+}
+
+.pagination-btn {
+    cursor: pointer;
+    margin: 0;
+}
+
+.pagination-block {
+    margin-left: 1%;
+}
+
+.selected-file {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.error-block {
+    color: red;
+    text-transform: uppercase;
+}
+
+.exist-attachment-block {
+    margin: -1%;
+    margin-top: 1%;
+}
